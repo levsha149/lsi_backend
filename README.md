@@ -34,4 +34,11 @@ To run it execute:
 
 > symfony server:start
 
+in my setup I created a virtual host named:
+
+> http://lsi_backend.local
+
+this URL is also used in a frontend app to make requests to. If you use "symfony server:start", or named your virtual host 
+otherwise, please check frontend's documentation, you'll need to change backend URL there respectively.
+
 7) That's it, your backend should be up and running :).
